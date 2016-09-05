@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:background="@drawable/bordesredondeados"
+    android:orientation="vertical" >
+    <ImageView
+        android:id="@+id/imageView_imagen"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:contentDescription="Descripción del contenido de la imagen"
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_margin="1dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="5dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textView_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15dp"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:id="@+id/textView_precio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_gravity="center_horizontal"
+            android:textSize="10dp"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:id="@+id/textView_artista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_gravity="center_horizontal"
+            android:textSize="10dp"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:id="@+id/textView_categoria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_gravity="center_horizontal"
+            android:textSize="10dp"
+            android:gravity="center_vertical|center_horizontal" />
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">pruebAPP</string>
+    <string name="noHayInternet">No esta disponible la conexión a Internet</string>
+
+
+    <string name="precio_detalle">precio: </string>
+    <string name="contentType_detalle">contentType: </string>
+    <string name="derechos_detalle">derechos: </string>
+    <string name="titulo_detalle">título: </string>
+    <string name="link_detalle">link: </string>
+    <string name="id_detalle">id: </string>
+    <string name="artista_detalle">artista: </string>
+    <string name="categoria_detalle">categoría: </string>
+    <string name="fechaLanzamiento_detalle">Fecha de Lanzamiento: </string>
+    <string name="summary_detalle">summary: </string>
+
+    <string name="mensaje_nombre">Ivan Andres Pacacira Gomez</string>
+    <string name="mensaje_email">wer2442@hotmail.com</string>
+    <string name="mensaje_tel">3166805969</string>
+
+
+
+</resources>
